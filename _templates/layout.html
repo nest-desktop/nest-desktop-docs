@@ -8,3 +8,15 @@
 
 <link href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/7.4.47/css/materialdesignicons.min.css" rel="stylesheet">
 {%- endblock %}
+{%- block footer %}
+  <footer>
+  {{ super() }}
+      <div class="md-footer md-grid" style="justify-content: center; padding-top: 0;">
+        <div style="text-align: center; font-size: large; color: #aaa;">
+          <a href="https://www.nest-initiative.org/impressum/" style="color: #aaa;">Impressum</a>
+          <span style="margin: 0 0.5em;">|</span>
+          <a href="https://www.nest-initiative.org/data-protection/" style="color: #aaa;">Data Protection</a>
+        </div>
+      </div>
+   </footer>
+{%- endblock %}
